@@ -1,3 +1,6 @@
 /gallery-dl
 /.venv
 /__pycache__
+/indoclubbing
+/jomok
+.env
