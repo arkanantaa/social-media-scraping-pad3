@@ -26,6 +26,7 @@ Suatu gambar dikatakan UNSAFE bila mengandung:
 - Kata-kata kasar
 - Konten LGBTQ
 - Konten yang mengandung humor dewasa atau mengarah ke humor dewasa
+- Konten yang menghina atau membercandai tokoh politik atau tokoh publik lainnya
 - Lainnya yang menurut anda bersifat negatif bagi anak
 
 Respon hanya menggunakan format yang sama persis seperti berikut: 
@@ -126,8 +127,8 @@ def ai_label(path, unsafe_path, safe_path, csv_output="label_results.csv"):
 # ── Entry Point ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     ai_label(
-        path        = 'gallery-dl/instagram/tag/jomok',
-        unsafe_path = 'jomok/unsafe',
-        safe_path   = 'jomok/safe',
-        csv_output  = 'jomok/label_results.csv'
+        path        = 'gallery-dl/instagram/tag/darkjokes',
+        unsafe_path = 'darkjokes/unsafe',
+        safe_path   = 'darkjokes/safe',
+        csv_output  = 'darkjokes/label_results.csv'
     )

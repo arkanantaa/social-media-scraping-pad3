@@ -43,4 +43,4 @@ def label_files(path, unsafe_path, safe_path):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    label_files('gallery-dl/instagram/tag/cartoon', 'cartoon/unsafe', 'cartoon/safe')
+    label_files('gallery-dl/instagram/tag/anakdugem', 'anakdugem/unsafe', 'anakdugem/safe')

@@ -25,19 +25,31 @@ gallery-dl --range 1-300 `
 >>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
 ```
 
-## Unsafe
-1. Racism
+2. Stem for Kids
 ```
 gallery-dl --range 1-300 `  
 >>   --cookies-from-browser firefox `
 >>   --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" `
 >>   --write-metadata --write-tags `
 >>   --sleep 3-7 --sleep-request 10-20 `
->>   "https://www.instagram.com/explore/tags/racism/" `
+>>   "https://www.instagram.com/explore/tags/stemforkids/" `
 >>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
 ```
 
-2. Jokes Homo
+3. View
+```
+gallery-dl --range 1-300 `  
+>>   --cookies-from-browser firefox `
+>>   --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" `
+>>   --write-metadata --write-tags `
+>>   --sleep 3-7 --sleep-request 10-20 `
+>>   "https://www.instagram.com/explore/tags/view/" `
+>>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
+```
+
+## Unsafe
+
+1. Inappropriate Contents
 ```
 gallery-dl --range 1-300 `  
 >>   --cookies-from-browser firefox `
@@ -58,6 +70,7 @@ gallery-dl --range 1-300 `
 >>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
 ```
 
+2. LGBTQ
 ```
 gallery-dl --range 1-300 `  
 >>   --cookies-from-browser firefox `
