@@ -102,3 +102,44 @@ gallery-dl --range 1-300 `
 >>   "https://www.instagram.com/explore/tags/missile/" `
 >>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
 ```
+
+5. Inappropriate context
+```
+gallery-dl --range 1-300 `  
+>>   --cookies-from-browser firefox `
+>>   --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" `
+>>   --write-metadata --write-tags `
+>>   --sleep 3-7 --sleep-request 10-20 `
+>>   "https://www.instagram.com/explore/tags/gtavonline/" `
+>>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
+```
+
+```
+gallery-dl --range 1-300 `  
+>>   --cookies-from-browser firefox `
+>>   --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" `
+>>   --write-metadata --write-tags `
+>>   --sleep 3-7 --sleep-request 10-20 `
+>>   "https://www.instagram.com/explore/tags/mortalkombat/" `
+>>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
+```
+
+```
+gallery-dl --range 1-300 `  
+>>   --cookies-from-browser firefox `
+>>   --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" `
+>>   --write-metadata --write-tags `
+>>   --sleep 3-7 --sleep-request 10-20 `
+>>   "https://www.instagram.com/explore/tags/happytreefriends/" `
+>>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
+```
+
+```
+gallery-dl --range 1-300 `  
+>>   --cookies-from-browser firefox `
+>>   --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" `
+>>   --write-metadata --write-tags `
+>>   --sleep 3-7 --sleep-request 10-20 `
+>>   "https://www.instagram.com/explore/tags/southpark/" `
+>>   --filter "extension in ('jpg', 'jpeg', 'png', 'webp')"
+```

@@ -127,8 +127,8 @@ def ai_label(path, unsafe_path, safe_path, csv_output="label_results.csv"):
 # ── Entry Point ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     ai_label(
-        path        = 'gallery-dl/instagram/tag/lgbt',
-        unsafe_path = 'lgbt/unsafe',
-        safe_path   = 'lgbt/safe',
-        csv_output  = 'lgbt/label_results.csv'
+        path        = 'gallery-dl/instagram/tag/missile',
+        unsafe_path = 'missile/unsafe',
+        safe_path   = 'missile/safe',
+        csv_output  = 'missile/label_results.csv'
     )
